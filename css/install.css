@@ -1,0 +1,347 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+.r-home .r-home__header {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.r-home .r-home__header--logo {
+	display: block;
+    width: 100%;
+    max-width: 200px;
+}
+
+.r-home .r-home__header--logo a {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.r-home .r-home__header--logo img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.r-home .r-home__header--menu {
+	display: block;
+    width: 100%;
+    height: auto;
+}
+
+.r-home .r-home__header--menu ul {
+	display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.r-home .r-home__header--menu ul li a {
+	text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.r-home .r-home__header--contact {
+	display: block;
+	position: relative;
+    left: -35px;
+}
+
+.r-home .r-home__header--contact a {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.r-home .r-home__header--contact a img {
+	display: block;
+    width: 100px;
+    height: auto;
+    max-width: 80px;
+}
+
+.r-home .r-home__general--banner {
+	display: block;
+    position: relative;
+	min-height: 500px;
+	width: 100%;
+}
+
+.r-home .r-home__general--banner p {
+    width: 35%;
+    position: absolute;
+    z-index: 9;
+    display: block;
+    bottom: 20%;
+    font-size: 50px;
+    left: 5%;
+    line-height: 55px;
+    color: #757575;
+    text-transform: uppercase;
+}
+
+.r-home .r-home__general--banner p b {
+	display: block;
+	color: #589DDE;
+}
+
+.r-home .r-home__general--banner img {
+	position: absolute;
+	width: 100%;
+	height: auto;
+}
+
+.r-home .r-home__general--content {
+	display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.r-home .r-home__general--content h2 {
+	font-size: 50px;
+    color: #589DDE;
+    display: block;
+    margin: 20px 30px;
+    position: relative;
+    left: 50px;
+}
+
+.r-home .r-home__general--content h2:after {
+    content: '';
+    background: url(seta-mood.png) no-repeat center;
+    display: block;
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: -50px;
+    max-width: 100%;
+    background-size: 100% auto;
+}
+
+.r-home .r-home__general--content img {
+	display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: -130px;
+}
+
+.r-home .r-home__general--content a {
+	display: block;
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    background: #589DDE;
+    color: #fff;
+    padding: 20px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 20px;
+    position: absolute;
+    bottom: 380px;
+    left: 0;
+    right: 0;
+}
+
+.r-home .r-home__general--clients {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+    background: url(background-clientes-mood.png) no-repeat center;
+    background-size: 100% auto;
+    position: relative;
+    top: -270px;
+    z-index: -1;
+}
+
+.r-home .r-home__general--clients ul {
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.r-home .r-home__general--clients ul li {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.r-home .r-home__general--clients ul li img {
+	display: block;
+    margin: 0 auto 25px;
+}
+
+.r-home .r-home__general--clients ul li p {
+	font-size: 30px;
+    color: #F0D833;
+    text-transform: uppercase;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.r-home .r-home__general--clients ul li p b {
+	color: #fff;
+    display: block;
+}
+
+.r-home .r-home__general--caroussel {
+	position: relative;
+    top: -270px;
+    width: 100%;
+    height: auto;
+    display: block;
+	margin: 50px auto;
+}
+
+.r-home .r-home__general--caroussel ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.r-home .r-home__general--depoiments {
+	position: relative;
+    top: -270px;
+	display: flex;
+	align-items: center;	
+}
+
+.r-home .r-home__general--depoiments img {
+	display: block;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.r-home .r-home__general--depoiments .r-home__general--depoiments_text {
+	display: block;
+    width: 60%;
+}
+
+.r-home .r-home__general--depoiments .r-home__general--depoiments_text h3{
+	color: #757575;
+	font-size: 20px;
+	text-transform: uppercase;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.r-home .r-home__general--depoiments .r-home__general--depoiments_text p {
+	color: #757575;
+    font-size: 20px;
+    display: block;
+    width: 75%;
+    line-height: 25px;
+}
+
+.r-home .r-home__footer {
+	position: relative;
+    top: -270px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #E4E4E4;
+    padding: 15px 0;
+}
+
+.r-home .r-home__footer--logo {
+	display: block;
+	width: 100%;
+	max-width: 200px;
+	height: auto;
+}
+
+.r-home .r-home__footer--logo a {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.r-home .r-home__footer--logo a img {
+	display: block;
+	width: 100%;
+	height: auto;
+	filter: grayscale(1);
+}
+
+.r-home .r-home__footer--menu {
+	display: block;
+    width: 400px;
+}
+
+.r-home .r-home__footer--menu ul {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.r-home .r-home__footer--menu ul li a {
+	text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+	font-size: 14px;
+}
+
+.r-home .r-home__footer--social {
+	display: block;
+    width: 100px;
+}
+
+.r-home .r-home__footer--social ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+.r-home .r-home__footer--social ul li a {
+	color: #8B8B8B;
+    border: 1px solid #8B8B8B;
+    padding: 10px;
+    border-radius: 100%;
+    font-size: 20px;
+}
+
+.r-home .r-home__base {
+	position: relative;
+    top: -270px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #E4E4E4;
+    padding: 15px 0;
+}
+
+.r-home .r-home__base p {
+	color: #757575;
+	font-size: 16px;
+}
